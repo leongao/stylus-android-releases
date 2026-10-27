@@ -1,0 +1,50 @@
+{
+  "app": "Stylus",
+  "versionName": "0.2.0",
+  "versionCode": 10,
+  "releaseDate": "2026-10-27",
+  "packageName": "com.leon.still",
+  "file": "Stylus-0.2.0-universal.apk",
+  "sizeBytes": 31782302,
+  "sha256": "4b9305964d30bc39e0051763db7d89906768268142d5a638ee15c1647f8534da",
+  "sourceCommit": "da0a672cae54fee2606a9340d6ca269b7eb7347e",
+  "minSdk": 29,
+  "targetSdk": 35,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "signingCertificateSha256": "9d390abd726a7711bb1d5d31b69dc31c4377d47fc9128ca695fc9a1e696314be",
+  "debuggable": false,
+  "launcherActivity": "com.leon.still.MainActivity",
+  "internetPermission": false,
+  "uiPreviewIncluded": false,
+  "buildChecks": {
+    "releaseBuild": "passed",
+    "apksigner": "passed",
+    "zipalign16KiB": "passed",
+    "lintErrors": 0,
+    "lintWarnings": 65,
+    "licenseAssets": "verified"
+  },
+  "runtimeChecks": {
+    "device": "Isolated Android 16 API 36 arm64-v8a emulator",
+    "freshInstall": true,
+    "coldLaunch": true,
+    "bookshelfToEditor": true,
+    "launcherIconReviewed": true,
+    "syntheticStylusStrokeSaved": true,
+    "strokeRestoredAfterProcessRestart": true,
+    "crashBufferForApp": "empty",
+    "padReleaseInstall": false,
+    "physicalStylusAcceptance": "Not repeated for this signed package; prior source behavior evidence retained."
+  },
+  "limitations": [
+    "Release APK not installed on physical Pad during this release task; device offline.",
+    "Physical stylus feel and motion quality not inferred from emulator.",
+    "Android 10-12 and all packaged ABIs were not each runtime-tested.",
+    "Full-color icon has no themed monochrome variant."
+  ]
+}

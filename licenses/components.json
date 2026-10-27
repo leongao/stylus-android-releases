@@ -1,0 +1,263 @@
+[
+  {
+    "component": "androidx.activity:activity-ktx:1.5.1",
+    "license": "Apache-2.0",
+    "artifactSha256": "fd69a5ccb99244cb7c5224580a58e23238d10ed4086199a33e9bfc31c4e4834f"
+  },
+  {
+    "component": "androidx.activity:activity:1.5.1",
+    "license": "Apache-2.0",
+    "artifactSha256": "4b04b42d2c1f81c02faf0f7b6e9cc9fede10fdee8f66136cd4b99f88e8f48c0f"
+  },
+  {
+    "component": "androidx.annotation:annotation-experimental:1.4.1",
+    "license": "Apache-2.0",
+    "artifactSha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0"
+  },
+  {
+    "component": "androidx.annotation:annotation-jvm:1.11.0-alpha02",
+    "license": "Apache-2.0",
+    "artifactSha256": "a83b827cc17fd6b41c7bf5e7a2a2b40a0895b00b3e30fdfdb820b49dc7b667f3"
+  },
+  {
+    "component": "androidx.arch.core:core-common:2.2.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+  },
+  {
+    "component": "androidx.arch.core:core-runtime:2.2.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47"
+  },
+  {
+    "component": "androidx.collection:collection-jvm:1.4.3",
+    "license": "Apache-2.0",
+    "artifactSha256": "15db51f82c65c4fa3223f27d5acb9531fc4fa536e04e4f13bc5ad4787faac139"
+  },
+  {
+    "component": "androidx.collection:collection-ktx:1.4.3",
+    "license": "Apache-2.0",
+    "artifactSha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3"
+  },
+  {
+    "component": "androidx.concurrent:concurrent-futures:1.1.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e"
+  },
+  {
+    "component": "androidx.core:core-ktx:1.16.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "1766dbd82f64a12dcd359ecb6f15f3cf35db4d66d22961a7c51b2ffc6468314c"
+  },
+  {
+    "component": "androidx.core:core-viewtree:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "dc1b678d58ebcf2bfa1587be68ff826694ce3d221251b9ef30d4d4b36297e6de"
+  },
+  {
+    "component": "androidx.core:core:1.16.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "6bf03d39dbe3744acce227d3b697374c3625aae1025fbec8ad9fd7bd58bce431"
+  },
+  {
+    "component": "androidx.customview:customview:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "20e5b8f6526a34595a604f56718da81167c0b40a7a94a57daa355663f2594df2"
+  },
+  {
+    "component": "androidx.fragment:fragment-ktx:1.5.7",
+    "license": "Apache-2.0",
+    "artifactSha256": "ddf3160c0dac0d02804680dbabc5c41866c929502b82b01434c1fc3f052b3701"
+  },
+  {
+    "component": "androidx.fragment:fragment:1.5.7",
+    "license": "Apache-2.0",
+    "artifactSha256": "59c74110b99378885ed06242f8a26da305ea4dca53ed60163540dd0e2e3c6675"
+  },
+  {
+    "component": "androidx.graphics:graphics-core:1.0.4",
+    "license": "Apache-2.0",
+    "artifactSha256": "7c9f2558871a7068b286d931537c579c69c7880c1070bcf66b3b8501af028aa0"
+  },
+  {
+    "component": "androidx.ink:ink-authoring-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "9fc28d0aab96c26afd83d4fcfa6010cb36c7c34defead45bd5bc184c4d6bba6a"
+  },
+  {
+    "component": "androidx.ink:ink-brush-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "b391884ec3dbaee36037042ca0f3a62a1e6a988c2042ac3250f21879ede3fd11"
+  },
+  {
+    "component": "androidx.ink:ink-geometry-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "74da677840daf6030b0c2f25dd94d54f7fd458ba1a94b0fad0474637460db381"
+  },
+  {
+    "component": "androidx.ink:ink-nativeloader-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "be76fa47013656f73f54dc126f8e06460e71b501cb8fcc52d2db28b2daae3608"
+  },
+  {
+    "component": "androidx.ink:ink-rendering-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "b5434b8157866f6b7b2f38da371be57dd6ef66ed45ab9b40fec553ad35b746ca"
+  },
+  {
+    "component": "androidx.ink:ink-storage-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "2a60e187648b675f9d872df5ea16f1cdd6a4c8aa572009a60f99157f9edad22b"
+  },
+  {
+    "component": "androidx.ink:ink-strokes-android:1.1.0-alpha09",
+    "license": "Apache-2.0",
+    "artifactSha256": "88c3dca19dc21203de02092153f1b269feb0f6a955e68cec634e7541a296ab94"
+  },
+  {
+    "component": "androidx.input:input-motionprediction:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "756b6e12b8c213a3c9aded33f0471ade63256453e9d897b5a6f5eedebc1207c3"
+  },
+  {
+    "component": "androidx.interpolator:interpolator:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-common-jvm:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "15943082d87bcd78830398fa377f2c8b12643de290d0906ed8e49a2d335ddb54"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "5f18429749a183e19178d8665ae42bf7b6310b50358ae9e0e0cc452afd6e0bc3"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "12dd61a9843ccebb4547d3ebe2f6d030ca8f6988d22f8fad19c0af93b4a97e95"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-livedata:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "3e8c009fc88da1c52e4ed05a81269d5ac9bd405046f300307f5e3a17e201a6df"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-runtime-android:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "2193a1573d623f37b20c7d27d1a8f903a72f651cc6f32e5794f85dda744fee75"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "871883703339f87284d232cb436e317c6f4af5612d92b43f27c6b13b92109fa7"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-viewmodel-android:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "9303287030027ca0b8cf98a748ddeb121ec1bfa1312c0069428e4765bbabce78"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "54295ac86b67886dc0613e38f621c531995d0662005fc763e340e19a90994f84"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "19404239fa584322c2f81e9659e162bc011b746d29dc950a11d260624d83225e"
+  },
+  {
+    "component": "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "4b809cf9eb7323d200504e95921feb777ff080215cadb8237742d5ed0ba5b792"
+  },
+  {
+    "component": "androidx.loader:loader:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "11f735cb3b55c458d470bed9e25254375b518b4b1bad6926783a7026db0f5025"
+  },
+  {
+    "component": "androidx.profileinstaller:profileinstaller:1.4.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "d502141fcce902430f62b674c32aecd0f75262e7ee2cd15c74adb617cd13130a"
+  },
+  {
+    "component": "androidx.savedstate:savedstate-android:1.4.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "1656ce62cd233d488bdbbd42e533b80b22435b7a690acae6dbe7302392512c14"
+  },
+  {
+    "component": "androidx.savedstate:savedstate-ktx:1.4.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "23593939446bc5a154a1e35fddd87b82f19e2adf072207f115bf29a8b431c1d3"
+  },
+  {
+    "component": "androidx.startup:startup-runtime:1.1.1",
+    "license": "Apache-2.0",
+    "artifactSha256": "e0a6329a371262fe4c450372b70fdaf33b769ef6917094723787cfce896b1dd3"
+  },
+  {
+    "component": "androidx.test.espresso:espresso-idling-resource:3.5.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "84fb8e2f5eda937771bee28582f5d2cfa61b0e9438d02041ca61b81e3dac3c87"
+  },
+  {
+    "component": "androidx.tracing:tracing:1.2.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2"
+  },
+  {
+    "component": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+    "license": "Apache-2.0",
+    "artifactSha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4"
+  },
+  {
+    "component": "androidx.viewpager:viewpager:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "147af4e14a1984010d8f155e5e19d781f03c1d70dfed02a8e0d18428b8fc8682"
+  },
+  {
+    "component": "com.google.guava:listenablefuture:1.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069"
+  },
+  {
+    "component": "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+    "license": "Apache-2.0",
+    "artifactSha256": "8836ccffd3585fadda9901244b20d42901d2f3cd581058d8434e2ffabcf3a3e7"
+  },
+  {
+    "component": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "bd783acd2f9738845d58380f46f45b5cde95d0cb03027d56725338b26bfc4d72"
+  },
+  {
+    "component": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "ad89c2892235e670f222d819cb3d81188143cb19a05b59df9889ae4269f5c70a"
+  },
+  {
+    "component": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3",
+    "license": "Apache-2.0",
+    "artifactSha256": "f0adde45864144475385cf4aa7e0b7feb27f61fcf9472665ed98cc971b06b1eb"
+  },
+  {
+    "component": "org.jetbrains:annotations:23.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+  },
+  {
+    "component": "org.jspecify:jspecify:1.0.0",
+    "license": "Apache-2.0",
+    "artifactSha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+  },
+  {
+    "component": "Alkatra Variable Font",
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/fffdadf0f0c9cc1ec8b407063424a8bfbee05611/ofl/alkatra",
+    "artifactSha256": "af6d39e8085eda5db66b19100571709bd41c41938400f2c365dadde86dd28466"
+  }
+]

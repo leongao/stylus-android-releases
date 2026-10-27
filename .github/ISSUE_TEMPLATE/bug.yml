@@ -1,0 +1,25 @@
+name: 问题反馈
+description: 报告 Stylus 的安装、书写或界面问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Stylus 版本
+      placeholder: 0.2.0 (10)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备、系统版本与手写笔
+      placeholder: 小米 Pad 7 Ultra / HyperOS / Focus Pen
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、实际效果与期望效果
+      description: 如附截图或录屏，请先遮挡私人笔记。
+    validations:
+      required: true

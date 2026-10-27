@@ -1,0 +1,8 @@
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*signing.properties
+*keystore.properties
+.DS_Store
