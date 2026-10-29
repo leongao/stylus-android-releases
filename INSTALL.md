@@ -3,7 +3,7 @@
 ## 首次安装
 
 1. 打开 [最新 Release](https://github.com/leongao/stylus-android-releases/releases/latest)。
-2. 下载 `Stylus-0.2.0-universal.apk`。不要选择 GitHub 自动生成的 Source code 压缩包。
+2. 下载 `Stylus-0.3.0-universal.apk`。不要选择 GitHub 自动生成的 Source code 压缩包。
 3. 在 Android 上打开 APK。如系统要求，允许当前使用的浏览器或文件管理器安装此 APK。
 4. 安装后打开 **Stylus**。无需登录；笔记保存在设备本地。
 
@@ -31,7 +31,7 @@ sha256sum -c SHA256SUMS
 Windows PowerShell：
 
 ```powershell
-Get-FileHash .\Stylus-0.2.0-universal.apk -Algorithm SHA256
+Get-FileHash .\Stylus-0.3.0-universal.apk -Algorithm SHA256
 ```
 
 将结果与 `SHA256SUMS` 对应行比较。校验和也包含 `build-info.json`；执行批量校验前请一并下载。

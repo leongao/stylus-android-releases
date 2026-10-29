@@ -1,15 +1,15 @@
 {
   "app": "Stylus",
-  "versionName": "0.2.0",
-  "versionCode": 10,
-  "releaseDate": "2026-10-27",
+  "releaseDate": "2026-10-29",
   "packageName": "com.leon.still",
-  "file": "Stylus-0.2.0-universal.apk",
-  "sizeBytes": 31782302,
-  "sha256": "4b9305964d30bc39e0051763db7d89906768268142d5a638ee15c1647f8534da",
-  "sourceCommit": "da0a672cae54fee2606a9340d6ca269b7eb7347e",
+  "versionName": "0.3.0",
+  "versionCode": 11,
   "minSdk": 29,
   "targetSdk": 35,
+  "file": "Stylus-0.3.0-universal.apk",
+  "sizeBytes": 31913622,
+  "sha256": "00fc0107f7808f688f086d87880f61540c4c10aeca72e3973a1985c00145e8b8",
+  "sourceCommit": "207fcbfe94a63424e39d3d7635ea04905e15c0a6",
   "abis": [
     "arm64-v8a",
     "armeabi-v7a",
@@ -26,25 +26,47 @@
     "apksigner": "passed",
     "zipalign16KiB": "passed",
     "lintErrors": 0,
-    "lintWarnings": 65,
-    "licenseAssets": "verified"
+    "lintWarnings": 69,
+    "licenseAssets": "unchanged from 0.2.0; verified"
   },
   "runtimeChecks": {
-    "device": "Isolated Android 16 API 36 arm64-v8a emulator",
-    "freshInstall": true,
+    "fromVersion": "0.2.0 (10)",
+    "toVersion": "0.3.0 (11)",
+    "sameCertificateInstallR": true,
+    "installedApkSha256": "00fc0107f7808f688f086d87880f61540c4c10aeca72e3973a1985c00145e8b8",
+    "notebookRetained": true,
+    "savedStrokeCountBefore": 1,
+    "savedStrokeCountAfter": 1,
     "coldLaunch": true,
     "bookshelfToEditor": true,
-    "launcherIconReviewed": true,
-    "syntheticStylusStrokeSaved": true,
-    "strokeRestoredAfterProcessRestart": true,
-    "crashBufferForApp": "empty",
-    "padReleaseInstall": false,
-    "physicalStylusAcceptance": "Not repeated for this signed package; prior source behavior evidence retained."
+    "device": "owned Android 16 arm64 emulator",
+    "pageCountAfterUpgrade": 2,
+    "newSyntheticStrokeSaved": true,
+    "strokeCountAfterProcessRestart": 2,
+    "imagePickerOpened": true,
+    "imagePickerCancelPreservesNotes": true,
+    "backMoreCircleSizePx": [
+      78,
+      78
+    ],
+    "appCrashBufferEmpty": true,
+    "physicalPenAcceptance": false,
+    "padInstalled": false
+  },
+  "sourceRegression": {
+    "validatedCommit": "c4c2f39a9d42fda20f6b5b2f62715a29b4b38394",
+    "productionSourceTree": "ee907c0800b2a1775b1230fef9050d60a46652b0",
+    "productionSourcesIdenticalToValidatedChecks": true,
+    "systemInputDispatcherPinchCases": 6,
+    "liveLayoutChecks": 83,
+    "imageChecks": 26,
+    "contactRoutingChecks": 8,
+    "documentChecks": 12
   },
   "limitations": [
-    "Release APK not installed on physical Pad during this release task; device offline.",
-    "Physical stylus feel and motion quality not inferred from emulator.",
-    "Android 10-12 and all packaged ABIs were not each runtime-tested.",
-    "Full-color icon has no themed monochrome variant."
+    "This signed release APK was runtime-tested on an isolated Android 16 arm64 emulator, not installed on the physical Pad.",
+    "Physical pen feel is not inferred from synthetic strokes or emulator gesture checks.",
+    "Android 10-12 and the other packaged CPU architectures were not separately runtime-tested.",
+    "The full-color app icon has no themed monochrome variant."
   ]
 }
