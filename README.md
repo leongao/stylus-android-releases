@@ -8,12 +8,17 @@
 
 ## 当前版本
 
-**0.4.0 · build 12**。下载 Release 中的 **`Stylus-0.4.0-universal.apk`**，无需分包安装或额外素材下载。GitHub 自动生成的 Source code 压缩包是本仓库的文档，不是安装包。
+**0.4.1 · build 13**。下载 Release 中的 **`Stylus-0.4.1-universal.apk`**，无需分包安装或额外素材下载。GitHub 自动生成的 Source code 压缩包是本仓库的文档，不是安装包。
 
 - Android 10 或更高版本；面向平板和主动式手写笔优化。
 - 同一个 APK 包含 arm64-v8a、armeabi-v7a、x86、x86_64。
 - 开发与此前书写体验验证基于小米 Pad 7 Ultra + Xiaomi Focus Pen；其他设备的压感、倾角和系统手势支持可能不同。
 - Android 13 及以上使用曲面玻璃效果，较早版本使用兼容效果。Android 10–12 的本次正式包尚未完成设备验证。
+
+## 本次更新
+
+- 优化默认尺寸下单指移动画布的流畅度。
+- 更新笔盒的吸色和添加图片图标。
 
 ## 可以做什么
 
