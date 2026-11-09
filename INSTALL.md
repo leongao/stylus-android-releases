@@ -3,7 +3,7 @@
 ## 首次安装
 
 1. 打开 [最新 Release](https://github.com/leongao/stylus-android-releases/releases/latest)。
-2. 下载 `Stylus-0.4.3-universal.apk`。不要选择 GitHub 自动生成的 Source code 压缩包。
+2. 下载 `Stylus-0.4.4-universal.apk`。不要选择 GitHub 自动生成的 Source code 压缩包。
 3. 在 Android 上打开 APK。如系统要求，允许当前使用的浏览器或文件管理器安装此 APK。
 4. 安装后打开 **Stylus**。无需登录；笔记保存在设备本地。
 
@@ -16,6 +16,7 @@
 - Checks / Stylus Checks 使用独立包名，原有数据保留，不会自动复制到正式版。
 - 早期叫作 Stylus 的调试包可能也使用 `com.leon.still`，但签名不同。Android 会拒绝覆盖安装并提示冲突。这种情况不要卸载有笔记的旧应用；先保留原应用，并联系维护者讨论数据迁移。
 - 不建议降级。新版本保存的数据可能无法被旧版本完整读取。
+- 使用0.4.4的笔迹选区缩放后，请继续用0.4.4或更新版本打开该笔记；旧版本无法读取新增的缩放数据。
 - 本版没有整本可编辑笔记的备份导出功能。PNG 导出只保存页面图像，不能替代可编辑笔记备份。清除数据 / 卸载会移除本地笔记。
 
 ## 下载校验
@@ -32,7 +33,7 @@ sha256sum -c SHA256SUMS
 Windows PowerShell：
 
 ```powershell
-Get-FileHash .\Stylus-0.4.3-universal.apk -Algorithm SHA256
+Get-FileHash .\Stylus-0.4.4-universal.apk -Algorithm SHA256
 ```
 
 将结果与 `SHA256SUMS` 对应行比较。校验和也包含 `build-info.json`；执行批量校验前请一并下载。

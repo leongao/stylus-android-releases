@@ -1,15 +1,14 @@
 {
   "app": "Stylus",
-  "releaseDate": "2026-10-29",
+  "releaseDate": "2026-11-09",
   "packageName": "com.leon.still",
-  "versionName": "0.3.0",
-  "versionCode": 11,
+  "versionName": "0.4.4",
+  "versionCode": 16,
   "minSdk": 29,
   "targetSdk": 35,
-  "file": "Stylus-0.3.0-universal.apk",
-  "sizeBytes": 31913622,
-  "sha256": "00fc0107f7808f688f086d87880f61540c4c10aeca72e3973a1985c00145e8b8",
-  "sourceCommit": "207fcbfe94a63424e39d3d7635ea04905e15c0a6",
+  "file": "Stylus-0.4.4-universal.apk",
+  "sizeBytes": 32015478,
+  "sha256": "733f8fc3a991026ec5ece33cba9e12ec15576ca37d249f210bf158977d29f0b3",
   "abis": [
     "arm64-v8a",
     "armeabi-v7a",
@@ -18,55 +17,163 @@
   ],
   "signingCertificateSha256": "9d390abd726a7711bb1d5d31b69dc31c4377d47fc9128ca695fc9a1e696314be",
   "debuggable": false,
-  "launcherActivity": "com.leon.still.MainActivity",
-  "internetPermission": false,
   "uiPreviewIncluded": false,
+  "internetPermission": false,
+  "licenseAssets": [
+    "assets/licenses/Alkatra-OFL-1.1.txt",
+    "assets/licenses/Apache-2.0.txt",
+    "assets/licenses/THIRD_PARTY_NOTICES.md",
+    "assets/licenses/components.json"
+  ],
   "buildChecks": {
     "releaseBuild": "passed",
     "apksigner": "passed",
     "zipalign16KiB": "passed",
     "lintErrors": 0,
-    "lintWarnings": 69,
-    "licenseAssets": "unchanged from 0.2.0; verified"
-  },
-  "runtimeChecks": {
-    "fromVersion": "0.2.0 (10)",
-    "toVersion": "0.3.0 (11)",
-    "sameCertificateInstallR": true,
-    "installedApkSha256": "00fc0107f7808f688f086d87880f61540c4c10aeca72e3973a1985c00145e8b8",
-    "notebookRetained": true,
-    "savedStrokeCountBefore": 1,
-    "savedStrokeCountAfter": 1,
-    "coldLaunch": true,
-    "bookshelfToEditor": true,
-    "device": "owned Android 16 arm64 emulator",
-    "pageCountAfterUpgrade": 2,
-    "newSyntheticStrokeSaved": true,
-    "strokeCountAfterProcessRestart": 2,
-    "imagePickerOpened": true,
-    "imagePickerCancelPreservesNotes": true,
-    "backMoreCircleSizePx": [
-      78,
-      78
-    ],
-    "appCrashBufferEmpty": true,
-    "physicalPenAcceptance": false,
-    "padInstalled": false
+    "lintWarnings": 81,
+    "allEightNativeLibrariesMatchPublic043": true
   },
   "sourceRegression": {
-    "validatedCommit": "c4c2f39a9d42fda20f6b5b2f62715a29b4b38394",
-    "productionSourceTree": "ee907c0800b2a1775b1230fef9050d60a46652b0",
-    "productionSourcesIdenticalToValidatedChecks": true,
-    "systemInputDispatcherPinchCases": 6,
-    "liveLayoutChecks": 83,
-    "imageChecks": 26,
-    "contactRoutingChecks": 8,
-    "documentChecks": 12
+    "productionSourcesIdenticalToCorrespondingChecks": true,
+    "correspondingChecksSource": "4df61cf71a295ab63a161619e8d99eeff8b7a524",
+    "correspondingChecksApkSha256": "b0365fdd985898489b85f2d595a1672c9854fd8716088bf51010160645d3acd1",
+    "nativeChecks": {
+      "copy": 23,
+      "delete": 18,
+      "scale": 25
+    },
+    "documentRegressionPassed": true,
+    "markerNativeCases": 12,
+    "userAcceptedCopyFunctionOnPad": true,
+    "copyFeedbackInputTypeSpecified": false,
+    "userAcceptedRoundAndChiselMarkerDifferentiationAndWriting": true,
+    "selectionScaleDeleteCopyIntegrationExplicitlyApproved": true,
+    "physicalPenLatencyMeasured": false,
+    "legacySelectionSuite": "Full legacy suite is not claimed passed: its pre-existing pencil translation raster assertion is also reproducible on the accepted pre-feature marker baseline."
+  },
+  "runtimeChecks": {
+    "fromVersion": "0.4.3 (15)",
+    "toVersion": "0.4.4 (16)",
+    "sameCertificateInstallR": true,
+    "uidAndFirstInstallTimeRetained": true,
+    "installedApkSha256": "733f8fc3a991026ec5ece33cba9e12ec15576ca37d249f210bf158977d29f0b3",
+    "notebookRetained": true,
+    "pageCountAfterUpgrade": 2,
+    "savedStrokeCountBefore": 2,
+    "savedStrokeCountAfterUpgrade": 2,
+    "firstPenAfterOpeningSaved": true,
+    "strokeCountAfterFirstPen": 3,
+    "fingerGroupCopy": true,
+    "stylusGroupCopy": true,
+    "deleteOnlyCopies": true,
+    "copyDeleteUndoRedo": true,
+    "proportionalScaleUndoRedo": true,
+    "scaleRatio": [
+      1.3432343234323432,
+      1.3385826771653544
+    ],
+    "lowerRightAnchorFixed": true,
+    "resize": [
+      {
+        "widthDp": 320,
+        "threeVisibleNonoverlapping48dpTargets": true,
+        "bounds": [
+          [
+            166,
+            338,
+            274,
+            446
+          ],
+          [
+            0,
+            338,
+            108,
+            446
+          ],
+          [
+            0,
+            696,
+            108,
+            804
+          ]
+        ]
+      },
+      {
+        "widthDp": 470,
+        "threeVisibleNonoverlapping48dpTargets": true,
+        "bounds": [
+          [
+            335,
+            338,
+            443,
+            446
+          ],
+          [
+            0,
+            338,
+            108,
+            446
+          ],
+          [
+            0,
+            696,
+            108,
+            804
+          ]
+        ]
+      },
+      {
+        "widthDp": 520,
+        "threeVisibleNonoverlapping48dpTargets": true,
+        "bounds": [
+          [
+            391,
+            338,
+            499,
+            446
+          ],
+          [
+            0,
+            338,
+            108,
+            446
+          ],
+          [
+            0,
+            696,
+            108,
+            804
+          ]
+        ]
+      }
+    ],
+    "strokeCountAfterProcessRestart": 5,
+    "scaledCopiedInkAndViewportRestored": true,
+    "singleFingerPan": true,
+    "renderedInkPanDeltaPx": [
+      140,
+      80
+    ],
+    "imagePickerOpened": true,
+    "imagePickerCancelPreservesNotes": true,
+    "appCrashBufferEmptyForPackage": true,
+    "input": "Android system InputDispatcher synthetic finger/stylus",
+    "device": "owned Android16 arm64 emulator",
+    "physicalPenAcceptance": false,
+    "padInstalledThisRelease": false
+  },
+  "compatibility": {
+    "oldNotesRetained": true,
+    "newScaleFormatOnlyWhenInkScaled": true,
+    "scaledNotesMinimumAppVersion": "0.4.4",
+    "downgradeSupported": false
   },
   "limitations": [
-    "This signed release APK was runtime-tested on an isolated Android 16 arm64 emulator, not installed on the physical Pad.",
-    "Physical pen feel is not inferred from synthetic strokes or emulator gesture checks.",
-    "Android 10-12 and the other packaged CPU architectures were not separately runtime-tested.",
-    "The full-color app icon has no themed monochrome variant."
-  ]
+    "Formal APK runtime checks used a task-owned Android16 arm64 emulator and disposable notes with system-injected finger/stylus input.",
+    "Pad feedback applies to the corresponding Checks implementation. This formal signed APK was not installed on the Pad for publication.",
+    "Android10-12 and the other three packaged CPU architectures were not separately runtime-tested."
+  ],
+  "sourceCommit": "1ee8afcbe6be2c8421be17a96d650b7f12f51468",
+  "productionSourceTree": "24894d01c41b854250021037f727afff6adee71c",
+  "mainIntegrationVerified": true
 }
