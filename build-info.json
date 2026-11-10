@@ -1,14 +1,14 @@
 {
   "app": "Stylus",
-  "releaseDate": "2026-11-09",
+  "releaseDate": "2026-11-10",
   "packageName": "com.leon.still",
-  "versionName": "0.4.4",
-  "versionCode": 16,
+  "versionName": "0.4.5",
+  "versionCode": 17,
   "minSdk": 29,
   "targetSdk": 35,
-  "file": "Stylus-0.4.4-universal.apk",
+  "file": "Stylus-0.4.5-universal.apk",
   "sizeBytes": 32015478,
-  "sha256": "733f8fc3a991026ec5ece33cba9e12ec15576ca37d249f210bf158977d29f0b3",
+  "sha256": "9bfeb3eabdc4c629a6e841c28330d9ccd5b9b1020d41754c366768a6d262e317",
   "abis": [
     "arm64-v8a",
     "armeabi-v7a",
@@ -31,149 +31,268 @@
     "zipalign16KiB": "passed",
     "lintErrors": 0,
     "lintWarnings": 81,
-    "allEightNativeLibrariesMatchPublic043": true
+    "allEightNativeLibrariesMatchPublic044": true
   },
   "sourceRegression": {
     "productionSourcesIdenticalToCorrespondingChecks": true,
-    "correspondingChecksSource": "4df61cf71a295ab63a161619e8d99eeff8b7a524",
-    "correspondingChecksApkSha256": "b0365fdd985898489b85f2d595a1672c9854fd8716088bf51010160645d3acd1",
+    "correspondingChecksSource": "7f9b663f30cfc265d7e64ce3472aa391edc1ec52",
+    "correspondingChecksApkSha256": "10819d9bb870ffa995b191984bf4b87b7146caeeeeb6c41993792ae56ad25beb",
     "nativeChecks": {
-      "copy": 23,
-      "delete": 18,
-      "scale": 25
+      "selection-minimum": 125,
+      "selection-copy": 23,
+      "selection-delete": 18,
+      "selection-scale": 25
     },
     "documentRegressionPassed": true,
-    "markerNativeCases": 12,
-    "userAcceptedCopyFunctionOnPad": true,
-    "copyFeedbackInputTypeSpecified": false,
-    "userAcceptedRoundAndChiselMarkerDifferentiationAndWriting": true,
-    "selectionScaleDeleteCopyIntegrationExplicitlyApproved": true,
+    "sharedGlassChecks": 10,
+    "sharedGlassMode": "AGSL-GPU",
+    "userAcceptedMinimumFrameAndGlassButtonsOnPad": true,
+    "feedbackInputTypeSpecified": false,
     "physicalPenLatencyMeasured": false,
-    "legacySelectionSuite": "Full legacy suite is not claimed passed: its pre-existing pencil translation raster assertion is also reproducible on the accepted pre-feature marker baseline."
+    "legacySelectionSuite": "The full legacy suite is not claimed passed: its pre-existing pencil translation raster assertion remains documented; it was not modified or rerun for this release."
   },
   "runtimeChecks": {
-    "fromVersion": "0.4.3 (15)",
-    "toVersion": "0.4.4 (16)",
+    "accepted": true,
+    "fromVersion": "0.4.4 (16)",
+    "toVersion": "0.4.5 (17)",
     "sameCertificateInstallR": true,
     "uidAndFirstInstallTimeRetained": true,
-    "installedApkSha256": "733f8fc3a991026ec5ece33cba9e12ec15576ca37d249f210bf158977d29f0b3",
-    "notebookRetained": true,
+    "installedApkSha256": "9bfeb3eabdc4c629a6e841c28330d9ccd5b9b1020d41754c366768a6d262e317",
+    "oldNotebookRetained": true,
     "pageCountAfterUpgrade": 2,
     "savedStrokeCountBefore": 2,
     "savedStrokeCountAfterUpgrade": 2,
     "firstPenAfterOpeningSaved": true,
     "strokeCountAfterFirstPen": 3,
-    "fingerGroupCopy": true,
-    "stylusGroupCopy": true,
-    "deleteOnlyCopies": true,
-    "copyDeleteUndoRedo": true,
-    "proportionalScaleUndoRedo": true,
-    "scaleRatio": [
-      1.3432343234323432,
-      1.3385826771653544
-    ],
-    "lowerRightAnchorFixed": true,
+    "firstPenFixtureUndoneBeforeSelectionQa": true,
+    "normalOpenFlow": true,
+    "minimumFrameSideDp": 64,
+    "touchTargetSideDp": 48,
+    "systemFingerMinimum": {
+      "bounds": [
+        [
+          812,
+          663,
+          920,
+          771
+        ],
+        [
+          956,
+          663,
+          1064,
+          771
+        ],
+        [
+          812,
+          807,
+          920,
+          915
+        ]
+      ],
+      "centers": [
+        [
+          866.0,
+          717.0
+        ],
+        [
+          1010.0,
+          717.0
+        ],
+        [
+          866.0,
+          861.0
+        ]
+      ],
+      "frameDp": 64
+    },
+    "systemStylusMinimum": {
+      "bounds": [
+        [
+          812,
+          663,
+          920,
+          771
+        ],
+        [
+          956,
+          663,
+          1064,
+          771
+        ],
+        [
+          812,
+          807,
+          920,
+          915
+        ]
+      ],
+      "centers": [
+        [
+          866.0,
+          717.0
+        ],
+        [
+          1010.0,
+          717.0
+        ],
+        [
+          866.0,
+          861.0
+        ]
+      ],
+      "frameDp": 64
+    },
+    "repeatedShrinkKeepsGeometry": true,
+    "repeatedShrinkAddsNoUndoStep": true,
+    "singleUndoRestoresOriginalInk": true,
+    "redoRestoresExactMinimum": true,
+    "minimumFrameInteriorMove": true,
     "resize": [
       {
         "widthDp": 320,
-        "threeVisibleNonoverlapping48dpTargets": true,
         "bounds": [
           [
-            166,
-            338,
-            274,
-            446
+            108,
+            687,
+            216,
+            795
           ],
           [
-            0,
-            338,
-            108,
-            446
+            252,
+            687,
+            360,
+            795
           ],
           [
-            0,
-            696,
             108,
-            804
+            831,
+            216,
+            939
           ]
-        ]
+        ],
+        "centers": [
+          [
+            162.0,
+            741.0
+          ],
+          [
+            306.0,
+            741.0
+          ],
+          [
+            162.0,
+            885.0
+          ]
+        ],
+        "frameDp": 64
       },
       {
         "widthDp": 470,
-        "threeVisibleNonoverlapping48dpTargets": true,
         "bounds": [
           [
-            335,
-            338,
-            443,
-            446
+            277,
+            687,
+            385,
+            795
           ],
           [
-            0,
-            338,
-            108,
-            446
+            421,
+            687,
+            529,
+            795
           ],
           [
-            0,
-            696,
-            108,
-            804
+            277,
+            831,
+            385,
+            939
           ]
-        ]
+        ],
+        "centers": [
+          [
+            331.0,
+            741.0
+          ],
+          [
+            475.0,
+            741.0
+          ],
+          [
+            331.0,
+            885.0
+          ]
+        ],
+        "frameDp": 64
       },
       {
         "widthDp": 520,
-        "threeVisibleNonoverlapping48dpTargets": true,
         "bounds": [
           [
-            391,
-            338,
-            499,
-            446
+            333,
+            687,
+            441,
+            795
           ],
           [
-            0,
-            338,
-            108,
-            446
+            477,
+            687,
+            585,
+            795
           ],
           [
-            0,
-            696,
-            108,
-            804
+            333,
+            831,
+            441,
+            939
           ]
-        ]
+        ],
+        "centers": [
+          [
+            387.0,
+            741.0
+          ],
+          [
+            531.0,
+            741.0
+          ],
+          [
+            387.0,
+            885.0
+          ]
+        ],
+        "frameDp": 64
       }
     ],
-    "strokeCountAfterProcessRestart": 5,
-    "scaledCopiedInkAndViewportRestored": true,
+    "copyAtMinimumAligned": true,
+    "deleteOnlyCopies": true,
+    "minimumInkAndViewRestoredAfterRestart": true,
+    "reselectedMinimumAfterRestartAligned": true,
     "singleFingerPan": true,
     "renderedInkPanDeltaPx": [
       140,
       80
     ],
-    "imagePickerOpened": true,
+    "inkAndViewportRestoredAfterSecondRestart": true,
+    "strokeCountAfterRestarts": 2,
     "imagePickerCancelPreservesNotes": true,
     "appCrashBufferEmptyForPackage": true,
-    "input": "Android system InputDispatcher synthetic finger/stylus",
     "device": "owned Android16 arm64 emulator",
-    "physicalPenAcceptance": false,
-    "padInstalledThisRelease": false
+    "input": "Android system InputDispatcher synthetic finger/stylus",
+    "padInstalledThisRelease": false,
+    "physicalPenAcceptance": false
   },
   "compatibility": {
     "oldNotesRetained": true,
-    "newScaleFormatOnlyWhenInkScaled": true,
+    "documentFormatUnchangedFrom044": true,
     "scaledNotesMinimumAppVersion": "0.4.4",
     "downgradeSupported": false
   },
   "limitations": [
     "Formal APK runtime checks used a task-owned Android16 arm64 emulator and disposable notes with system-injected finger/stylus input.",
-    "Pad feedback applies to the corresponding Checks implementation. This formal signed APK was not installed on the Pad for publication.",
+    "Pad acceptance applies to the corresponding Checks implementation. This formal signed APK was not installed on the Pad for publication.",
     "Android10-12 and the other three packaged CPU architectures were not separately runtime-tested."
   ],
-  "sourceCommit": "1ee8afcbe6be2c8421be17a96d650b7f12f51468",
-  "productionSourceTree": "24894d01c41b854250021037f727afff6adee71c",
+  "sourceCommit": "8d285cb5578f0a431efc5d979489427da2b73d80",
+  "productionSourceTree": "43b4f902f1c49b71351778eb31dc49efc95c73b0",
   "mainIntegrationVerified": true
 }
