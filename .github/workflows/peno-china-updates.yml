@@ -1,0 +1,30 @@
+name: Sync Peno China updates
+on:
+  release:
+    types: [published, edited, deleted, unpublished, prereleased, released]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: peno-china-update-feed
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Inspect published domestic APKs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/peno_china_updates.py
+      - name: Save updated feed
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add peno-cn-update.json
+          if ! git diff --cached --quiet; then
+            git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -m "Sync domestic APK update feed"
+            git push origin HEAD:"$DEFAULT_BRANCH"
+          fi
